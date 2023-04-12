@@ -1,0 +1,126 @@
+.IndividualTeacherFeedbackContainer {
+    position: absolute;
+    top: 10%;
+    height: 85%;
+    width: 100%;
+    z-index: 0;
+}
+
+.titleIndividualTeacherFeedbackHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.iconArrowIndividualTeacherFeedbackHeader {
+    color: #f87f23;
+}
+
+.titleIndividualTeacherFeedbackHeader {
+    font-size: 3vh;
+    color: #f87f23;
+}
+
+.iconArrowIndividualTeacherFeedbackHeaderWhite {
+    color: antiquewhite;
+    pointer-events: none;
+}
+
+.ActionsContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: #f87f23 0.1em solid;
+    border-bottom: #f87f23 0.1em solid;
+}
+
+.possibleActionContainers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.possibleActionText {
+    position: relative;
+    width: 70%;
+    font-size: 2.5vh;
+}
+
+.iconCheckboxIndividualFeedback {
+    position: relative;
+    width: 30%;
+    color: #f87f23;
+}
+
+.sendButtonIndividualFeedbackContainer {
+    position: relative;
+    margin: 5%;
+    margin-left: 0;
+}
+
+.sendButtonIndividualFeedback {
+    background-color: #f87f23;
+    border: #f87f23 solid 0.1em;
+    color: #fff;
+    font-size: 2.5vh;
+    padding: 50%;
+    border-radius: 10%;
+}
+
+.IndividualFeedbackContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.titleIndividualFeedback {
+    color: #f87f23;
+    font-size: 3vh;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.paragraphIndividualFeedback {
+    font-size: 2.5vh;
+    margin-top: 5%;
+}   
+
+.MaterialContainer {
+    border-top: #f87f23 0.1em solid;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.buttonSendMaterial {
+    border: #fff;
+    background-color: #f87f23;
+    color: #fff;
+    font-size: 2.5vh;
+    border-radius: 10%;
+    padding: 5%;
+    margin: 0;
+}

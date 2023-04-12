@@ -1,0 +1,21 @@
+.titleHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.iconArrowHeader {
+    color: #f87f23;
+}
+
+.iconArrowHeaderWhite{
+    color: antiquewhite;
+    pointer-events: none;
+}
+
+.titleHeader {
+    font-size: 4vh;
+    color: #f87f23;
+}

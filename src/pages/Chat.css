@@ -1,0 +1,87 @@
+.ChatContainer {
+    position: absolute;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+    z-index: 0;
+}
+
+.conversationContainer {
+    position: relative;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: solid #f87f23 0.1em;
+}
+
+.sectionOne {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.sectionTwo {
+    max-width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.sectionThree {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.iconUserInsideChat1 {
+    margin: 5%;
+    color: #3a86ff;
+}
+
+.iconUserInsideChat2 {
+    margin: 5%;
+    color: #a7c957;
+}
+
+.chatText {
+    font-size: 2.5vh;
+    border: solid #f87f23 0.2em;
+    background-color: #f87f23;
+    border-radius: 5%;
+    padding: 2%;
+    color: #f5ebe0;
+}
+
+.footerChat {
+    position: absolute;
+    bottom: 0.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.inputSendMessage {
+    width: 80%;
+    height: 4vh;
+    border: solid #f87f23;
+}
+
+.inputSendMessage::placeholder {
+    font-size: 2.5vh;
+}
+
+.iconSendMessage {
+    color: #f87f23;
+}

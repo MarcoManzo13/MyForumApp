@@ -1,0 +1,189 @@
+.GroupChatContainer {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.PostedMaterialContainer {
+    position: relative;
+    width: 90%;
+    border-bottom: solid 0.1em #f87f23;
+    border-top: solid 0.1em #f87f23;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.postedMaterialsTitle {
+    font-size: 3vh;
+    color: #f87f23;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.postedMaterialsInsideContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.postedMaterialsIconNameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.iconGroupChatMaterials {
+    color: #f87f23;
+    margin: 0;
+}
+
+.nameOfPostedMaterial {
+    font-size: 1.5vh;
+    margin: 0;
+}
+
+/* Questions */
+
+.QuestionsContainer {
+    position: relative;
+    width: 90%;
+    padding: 5%;
+    padding-top: 0;
+    border-bottom: solid 0.1em #f87f23;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+.questionsTitle {
+    color: #f87f23;
+    font-weight: 600;
+    font-size: 3vh;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.insideQuestionsContainer {
+    width: 90%;
+    border-top: solid 0.1em #f87f23;
+}
+
+.questionGroupChatTitle {
+    font-size: 2vh;
+    font-weight: 600;
+    color: #f87f23;
+    text-align: left;
+}
+
+.spanAnswerQuestion {
+    font-weight: 600;
+}
+
+.questionGroupChatAnswer {
+    font-size: 2vh;
+}
+
+/* Comments */
+
+.GroupCommentsContainer{ 
+    position: relative;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.GroupCommentsTitle {
+    font-size: 3vh;
+    color: #f87f23;
+    font-weight: 600;
+    text-align: center;
+}
+
+.individualGroupCommentContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid 0.1em #f87f23;
+}
+
+.individualGroupCommentContainer2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid 0.1em #f87f23;
+    border-bottom: solid 0.1em #f87f23;
+}
+
+.individualGroupCommentPhotoNameContainer {
+    width: auto;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.individualGroupCommentPhotoIcon{ 
+    color: #f87f23;
+}
+
+.GroupCommentNameOfUser {
+    font-weight: 600;
+    font-size: 2vh;
+    margin: 0;
+}
+
+.individualGroupCommentTextContainer {
+    width: auto;
+    max-width: 65%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.individualGroupCommentText {
+    font-size: 2vh;
+}
+
+.PostAGroupCommentContainer {
+    position: relative;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.PostACommentGroupTitle {
+    color: #f87f23;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+.PostCommentButtonGroup {
+    background-color: #f87f23;
+    border: solid #f87f23 0.1em;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 2.5vh;
+    margin-top: 5%;
+}

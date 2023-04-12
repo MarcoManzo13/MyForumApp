@@ -1,0 +1,102 @@
+.ProfileContainer {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.MyAccountContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top: solid #f87f23 0.1em;
+}
+
+.namePhotoIDContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.nameIDContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.nameProfileText {
+    position: relative;
+    color: #f87f23;
+    font-size: 2.5vh;
+}
+
+.IDProfileText {
+    position: relative;
+    color: #f87f23;
+    font-size: 2.5vh;
+}
+
+.imgProfileContainer {
+    position: relative;
+}
+
+.iconProfile {
+    position: relative;
+    color: #f87f23;
+}
+
+.MyDescriptionContainer {
+    position: relative;
+    border-top: solid #f87f23 0.1em;
+    border-bottom: solid #f87f23 0.1em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.myDescriptionTitle {
+    position: relative;
+    font-size: 3vh;
+    color: #f87f23;
+    text-align: center;
+}
+
+.myDescriptionParagraph {
+    position: relative;
+    text-align: justify;
+    font-size: 2.5vh;
+}
+
+.MakeAPostContainer {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.makeAPostTitle {
+    color: #f87f23;
+    font-size: 2.5vh;
+}
+
+.makeAPostButton {
+    border: #f87f23 solid 0.1em;
+    background-color: #f87f23;
+    padding: 5%;
+    color: #fff;
+    font-size: 2vh;
+    border-radius: 10%;
+    margin: 5%;
+}

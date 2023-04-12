@@ -1,0 +1,43 @@
+.HomeContainer {
+    position: absolute;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.iconoContainer {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.IconHome {
+    width: 100%;
+    height: auto;
+    /** animation: rotate 10s linear infinite; */
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.buttonClickMe {
+    color: #f87f23;
+    font-size: 3vh;
+    text-decoration: none;
+    border: solid #f87f23;
+    border-radius: 10%;
+    padding: 3%;
+}
+

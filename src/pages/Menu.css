@@ -1,0 +1,43 @@
+.MenuContainer {
+    position: absolute;
+    top: 10%;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsMenuContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.MenuButtons {
+    margin: 5%;
+    color: #f87f23;
+    font-size: 3vh;
+    border: solid #f87f23;
+    padding: 5%;
+    text-decoration: none;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.iconMenuButtons {
+    margin: 0;
+    padding: 0;
+}
+
+.MenuButtons:hover {
+    text-decoration: none;
+    color: #f87f23;
+}

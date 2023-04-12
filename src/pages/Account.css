@@ -1,0 +1,60 @@
+.AccountContainer {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginRegisterTitle {
+    color: #f87f23;
+    font-size: 6vh;
+    text-align: center;
+    margin: 10%;
+}
+
+.labelTitles {
+    color: #004f2f;
+    font-size: 3vh;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.inputAccount {
+    width: 100%;
+    border: none;
+    border-bottom: solid #f87f23;
+    padding: 2% 1%;
+    outline: none;
+}
+
+.RealSubmitButton {
+    border: solid #f87f23;
+    border-radius: 10%;
+    background-color: transparent;
+    margin-top: 10%;
+    font-size: 3vh;
+    color: #004f2f;
+    padding: 5%;
+}
+
+.submitButtonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitButton {
+    border: solid #f87f23;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.submitButtonText {
+    color: #004f2f;
+    font-size: 2.5vh;
+}

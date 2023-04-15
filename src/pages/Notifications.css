@@ -1,0 +1,11 @@
+.NotificationsContainer {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.individualNotificationTitle {
+    color: #f87f23;
+    font-size: 4vh;
+    font-weight: 600;
+}

@@ -54,12 +54,38 @@
     color: #f87f23;
 }
 
+.ProgressBarContainer {
+    position: relative;
+    border-top: solid #f87f23 0.1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+}
+
+.progressBarTitle {
+    position: relative;
+    font-size: 3vh;
+    color: #f87f23;
+    text-align: center;
+}
+
 .MyDescriptionContainer {
     position: relative;
     border-top: solid #f87f23 0.1em;
     border-bottom: solid #f87f23 0.1em;
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .myDescriptionTitle {

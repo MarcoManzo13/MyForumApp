@@ -2,6 +2,7 @@ import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header';
+import StepProgressBar from '../components/StepProgressBar';
 
 const Profile = () => {
   return (
@@ -30,12 +31,17 @@ const Profile = () => {
         </div>
       </div>
 
+      {/** Progress Bar Container */}
+      <div className="ProgressBarContainer">
+        <p className='progressBarTitle'>Your progress in My Forum:</p> 
+        <StepProgressBar/>
+      </div>
+
       {/** Description Container */}
       <div className="MyDescriptionContainer">
         <p className='myDescriptionTitle'>Please type a small description of yourself:</p> 
-        <p className='myDescriptionParagraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae eos 
-        excepturi autem unde quisquam reiciendis? 
-        </p> 
+        <textarea name="" id="" cols="50" rows="2"  placeholder='Type a small description of yourself here.'></textarea>
+        <button className='makeAPostButton' disabled>Post</button>
       </div>
 
       {/** Make a post container */}

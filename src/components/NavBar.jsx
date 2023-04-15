@@ -2,6 +2,7 @@ import './NavBar.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faBars, faHouse } from '@fortawesome/free-solid-svg-icons'
+import { ReactComponent  as IconBell } from '../images/BellNotification.svg';
 
 const NavBar = () => {
   return (
@@ -10,10 +11,10 @@ const NavBar = () => {
         <div className="buttonsNavBarContainerAndSearchBar">
 
           <div className="buttonsNavBarContainer">
-            
-            <Link to="/Menu" className='buttonsNavBar'><FontAwesomeIcon icon={faMagnifyingGlass} size="2x" /></Link>
-            <Link to="/" className='buttonsNavBar'><FontAwesomeIcon icon={faHouse} size="2x" ></FontAwesomeIcon></Link>
             <Link to="/Menu" className='buttonsNavBar'><FontAwesomeIcon icon={faBars} size="2x" ></FontAwesomeIcon></Link>
+            <Link to="/" className='buttonsNavBar'><FontAwesomeIcon icon={faHouse} size="2x" ></FontAwesomeIcon></Link>
+            <Link to="/Notifications" className='buttonsNavBar2'><IconBell className='IconBellNotification'/></Link>
+            <Link to="/Menu" className='buttonsNavBar'><FontAwesomeIcon icon={faMagnifyingGlass} size="2x" /></Link>
             {/**
             <a target="_blank" rel="noreferrer" href="https://chat.openai.com/chat" className='buttonsNavBar'>Ask Chat GPT</a>
              */}

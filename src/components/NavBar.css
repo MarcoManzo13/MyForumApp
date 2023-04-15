@@ -26,6 +26,27 @@
     padding: 2%;
 }
 
+.buttonsNavBar2 {
+    color: #fff;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+}
+
+.IconBellNotification {
+    position: relative;
+    stroke: #fff;
+    fill: #fff;
+    width: 80%;
+    height: 10%;
+    margin: 0;
+}
+
 .searchBarContainer {
     width: 100%;
     display: flex;

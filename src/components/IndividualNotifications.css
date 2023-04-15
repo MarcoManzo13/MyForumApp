@@ -1,0 +1,85 @@
+.IndividualNotificationContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    border-top: solid #f87f23 0.1em;
+    border-bottom: solid #f87f23 0.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.arrivalDateContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: solid #f87f23 0.1em;
+    height: 100%;
+    padding: 2%;
+}
+
+.arrivalDateTitle {
+    font-size: 2vh;
+    color: #f87f23;
+    padding: 0;
+    margin: 0;
+}
+
+.arrivalDateNotification {
+    font-size: 2.5vh;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.informationNotificationContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titleInformationNotification {
+    font-size: 2vh;
+    color: #f87f23;
+    padding: 0;
+    margin: 0;
+}
+
+.expirationDateInformationNotification {
+    font-size: 2.5vh;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.UrgencyIcon {
+    color: #f87f23;
+}
+
+.UrgencyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-left: solid #f87f23 0.1em;
+    height: 100%;
+    padding: 2%;
+}
+
+.UrgencyTitle {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10%;
+    font-size: 2vh;
+    color: #f87f23;
+}

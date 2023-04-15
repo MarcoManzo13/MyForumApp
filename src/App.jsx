@@ -11,6 +11,7 @@ import Notes from './pages/Notes';
 import IndividualTeacherFeedback from './pages/IndividualTeacherFeedback';
 import Profile from './pages/Profile';
 import GroupChat from './pages/GroupChat';
+import Notifications from './pages/Notifications';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/IndividualTeacherFeedback" element={<IndividualTeacherFeedback/>}/>
           <Route path="/Profile" element={<Profile/>}/>
           <Route path="/GroupChat" element={<GroupChat/>}/>
+          <Route path="/Notifications" element={<Notifications/>}/>
         </Routes>
       </Router>
     </div>

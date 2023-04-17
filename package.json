@@ -13,8 +13,12 @@
     "react-calendar": "^4.2.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
     "react-step-progress-bar": "^1.0.3",
+=======
+    "react-scripts": "^5.0.1",
+>>>>>>> 75a42a1f5e682e01795f196c790d1075a768d2be
     "web-vitals": "^2.1.4"
   },
   "scripts": {

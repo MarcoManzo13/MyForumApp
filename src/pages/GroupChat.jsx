@@ -4,7 +4,7 @@ import { faBoxOpen, faUser } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header';
 
 const GroupChat = () => {
-  return (
+return (
     <div className='GroupChatContainer'>
         <Header title="Group"/>
 
@@ -47,6 +47,11 @@ const GroupChat = () => {
                 <p className='questionGroupChatAnswer'><span className='spanAnswerQuestion'>Answer: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quis nobis enim ullam velit dolor, atque eaque. Reiciendis, sapiente.
                 </p>
+            </div>
+            <div className="PostAGroupCommentContainer">
+                <p className='PostACommentGroupTitle'>Post a question</p>
+                <textarea name="" id="" cols="45" rows="5" placeholder='Type your question here...'></textarea>
+                <button disabled className='PostCommentButtonGroup'>Submit Question</button>
             </div>
         </div>
 
@@ -97,7 +102,7 @@ const GroupChat = () => {
             </div>
         </div>
     </div>
-  )
+)
 }
 
 export default GroupChat;
